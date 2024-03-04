@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirTravel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"> <span>Airline</span> Deals</a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Acceuil</a></li>
+            <li><a href="#a-propos">à propos</a></li>
+            <li><a href="#popular-destination">destinations</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+        <a href="#" class="btn-reservation">Réserver Maintenant</a>
+        <div class="responsive-menu"></div>
+    </header>
+    
+    <section id="home">
+        <h2>Airline Deals</h2>
+        <h4>Voyagez en Sécurité</h4>
+        <p>Lors de vos déplacements, veillez à votre sécurité en planifiant soigneusement, en restant informé sur les conditions locales et en suivant les recommandations spécifiques.</p>
+        <p>Ardez vos affaires en sécurité, utilisez des moyens de transport fiables, évitez les zones à risque.</p>
+        <a href="#" class="btn-reservation home-btn">Réserver Maintenant</a>
+        <div class="find_trip">
+            <form action="">
+                <div>
+                    <label>Pays</label>
+                    <input type="text" placeholder="Entrez un Pays">
+                </div>
+                <div>
+                    <label>Ville</label>
+                    <input type="text" placeholder="Entrez une ville">
+                </div>
+                <div>
+                    <label>Région</label>
+                    <input type="text" placeholder="Entrez une région">
+                </div>
+                <input type="submit" value="voir">
+            </form>
+        </div>
+    </section>
+
+    <section id="a-propos">
+        <h1 class="title">à propos</h1>
+        <div class="img-desc">
+            <div class="left">
+                <video autoplay muted loop >
+                    <source src='videoo.mp4' type="video/mp4" >
+                    </video>
+            </div>
+            <div class="right">
+                <h3>Nous voyageons pour chercher d'autres états, d'autres vies, d'autres âmes.</h3>
+                <p>Une agence de voyage est une entreprise spécialisée dans la planification, l'organisation et la vente de services liés au voyage.</p>
+                <a href="#">Lire Plus</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-destination">
+        <h1 class="title">destinations populaires</h1>
+        <div class="content">
+            <div class="box">
+                <img src="Paris-en-photos-scaled.webp" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Paris</h4>
+                        <p>Paris, la capitale de la France, est une destination emblématique offrant une riche histoire</p>
+                        <p>une culture vibrante et une cuisine délicieuse.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="moscou-home-fiche.1466159.142.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Moscou</h4>
+                        <p>Moscou, la capitale de la Russie, fascine par son mélange unique de passé historique et de modernité.</p>
+                        <p>Explorez des joyaux architecturaux tels que le Kremlin </p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="471674-Miami.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Miami</h4>
+                        <p>Miami, ville floridienne vibrante, est réputée pour ses plages ensoleillées,</p>
+                        <p>son art déco coloré à South Beach et ses quartiers dynamiques comme Little Havana.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="iStock-515064346.avif" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Los-Angeles</h4>
+                        <p>Los Angeles, la deuxième plus grande ville des États-Unis.</p>
+                        <p>st réputée pour son industrie cinématographique.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Roma in breve.jpg" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Rome</h4>
+                        <p>Rome, la capitale italienne, est une ville riche en histoire, en art et en architecture.</p>
+                        <p>Explorez des sites emblématiques tels que le Colisée</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="calle-akihabara-tokio.webp" alt="">
+                <div class="content">
+                    <div>
+                        <h4>Tokyo</h4>
+                        <p>Tokyo, la capitale du Japon, est une métropole dynamique alliant tradition et modernité. </p>
+                        <p>Explorez les quartiers électriques comme Shibuya avec son célèbre passage piéton.</p>
+                        <a href="#">Lire Plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="title">Contact</h1>
+        <form action="">
+            <div class="left-right">
+                <div class="left">
+                    <label>Nom Complet</label>
+                    <input type="text">
+                    <label>Objet</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input required type="email">
+                    <label>Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="right">
+                    <label>Numéro</label>
+                    <input required type="number">
+                    <label>Date</label>
+                    <input required type="date">
+                    <label>Autres Details</label>
+                    <input type="text">
+                    <label>Adresse</label>
+                    <img src="map.png">
+                </div>
+            </div>
+            <button>Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Tous les droits sont réservés.</p>
+    </footer>
+
+    <script>
+        var toggle_menu = document.querySelector('.responsive-menu');
+        var menu = document.querySelector('.menu');
+        toggle_menu.onclick= function(){
+             toggle_menu.classList.toggle('active');
+             menu.classList.toggle('responsive')
+        }
+    </script>
+
+</body>
+</html>
